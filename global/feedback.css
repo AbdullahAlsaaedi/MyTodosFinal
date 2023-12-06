@@ -1,0 +1,86 @@
+.feedback-form h1 {
+    color: white;
+    margin-bottom: 20px;
+    letter-spacing: 5px;
+    font-weight: normal ;
+}
+
+.feedback-form {
+    width: 80%;
+    max-width: 1000px;
+    background-color: rgb(54, 59, 62);
+    border-radius: 10px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    color: black;
+
+}
+
+.form-section {
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+
+    
+
+    
+}
+
+.section-title {
+    font-size: 1.4em;
+    color: #2c2d2c;
+    background-color: #f7fafb;
+    border-radius: 10px;
+    padding: 5px 20px;
+
+    letter-spacing: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+}
+
+.label {
+    font-weight: bold;
+    color: #333;
+}
+
+.form-field {
+    margin-bottom: 15px;
+}
+
+.input-text,
+.radio-input,
+.checkbox-input,
+.select,
+.textarea {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.radio-input,
+.checkbox-input {
+    margin-right: 10px;
+}
+
+.textarea {
+    height: 80px;
+    margin-left: auto;
+}
+
+.submit-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,34 @@
+.settings-container {
+    background-color: rgb(35, 38, 40);
+    border-radius: 10px;
+    
+    padding: 50px;
+    margin: 50px 500px;
+}
+
+.setting {
+    margin: 10px 0;
+}
+
+.label {
+    margin-bottom: 5px;
+    display: block;
+}
+
+select, input[type="range"] {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.save-button {
+
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 20px;
+    
+}
+

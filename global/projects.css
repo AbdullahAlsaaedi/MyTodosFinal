@@ -1,0 +1,24 @@
+.new-project-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    font-size: 16px;
+    gap: 10px;
+}
+
+#new-project-submit {
+    padding: 5px 20px;
+}
+
+
+.create-project-add {
+    padding: 5px 30px;
+    cursor: pointer;
+}
+
+
+.hidden {
+    display: none;
+}

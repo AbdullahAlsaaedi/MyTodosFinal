@@ -1,0 +1,113 @@
+.container {
+    display: flex;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+
+
+#notetext {
+    width: 700px;
+}
+
+
+
+.notes {
+    flex-grow: 1;
+    padding: 10px;
+    margin: 50px;
+}
+
+.note {
+    margin: 0 0 10px;
+    background-color: transparent;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+#notetext {
+    background-color: transparent;
+    border: solid 0.5px gray;
+    padding: 2%;
+    margin-bottom: 10px;
+    color: white;
+    border: none;
+    box-shadow: 0px 1px 4px rgba(234, 233, 233, 0.356);
+
+    height: 300px;
+}
+
+#textarea:focus {
+    outline: none;
+}
+
+.add-button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    padding: 10px 70px;
+    font-size: 16px;
+}
+
+.notes h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+table {
+    width:1000px;
+    border-collapse: collapse;
+    margin-right: 30px;
+}
+
+table, td, th {
+    border: 1px solid;
+}
+
+td {
+    padding: 5px;
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(28, 31, 32);
+}
+
+
+#notetitle {
+    width: 100%;
+    margin-bottom: 10px;
+    
+
+    background-color: transparent;
+    border: solid 0.5px gray;
+    padding: 2%;
+    margin-bottom: 10px;
+    color: white;
+    border: none;
+    box-shadow: 0px 1px 4px rgba(234, 233, 233, 0.356);
+
+}
+
+.hidden {
+    display: none;
+}
+
+
+.notedate {
+    display: flex;
+    justify-content: space-between;
+}
+
+.opennote {
+    margin-right: -60px;
+}
+
+
+
+table {
+    text-align: center;
+}
+

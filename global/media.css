@@ -1,0 +1,55 @@
+.container {
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+
+    display: flex;
+
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+
+    font-size: 14px;
+}
+
+.container h1 {
+    font-size: 30px;
+    margin: 0 0 20px;
+    align-self: center;
+}
+
+.container p {
+    font-size: 18px;
+
+    margin-right: 40px;
+    margin-left: 100px;
+
+    align-self: center;
+
+}
+
+.container ul {
+
+    margin-right: 40px;
+    margin-left: 120px;
+    list-style: none;
+    padding: 0;
+
+    align-self: center;
+}
+
+.container ul li {
+    margin: 10px 0;
+    text-align: left;
+    text-align: center;
+    font-size: 16px;
+}
+
+.container video {
+    align-self: center;
+    width: 50%;
+    height: 500px;
+    border: none;
+}
+    
